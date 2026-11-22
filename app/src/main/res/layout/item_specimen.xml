@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:paddingStart="16dp" android:paddingEnd="16dp"
+    android:paddingTop="7dp" android:paddingBottom="7dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView android:id="@+id/spHead" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:fontFamily="monospace" android:textSize="11sp"
+            android:textColor="@color/text_dim"/>
+        <TextView android:id="@+id/spFit" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:fontFamily="monospace"
+            android:textSize="12sp" android:textColor="@color/amber"/>
+    </LinearLayout>
+    <TextView android:id="@+id/spPheno" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="2dp"
+        android:fontFamily="monospace" android:textSize="9sp" android:lineSpacingExtra="2dp"/>
+    <LinearLayout style="@style/GeneRow"><TextView style="@style/GeneLabel" android:text="SPD"/>
+        <ProgressBar android:id="@+id/bar0" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp" android:layout_height="7dp" android:layout_weight="1" android:max="100"
+            android:progressTint="@color/spd" android:progressBackgroundTint="@color/line"/>
+        <TextView android:id="@+id/val0" style="@style/GeneVal"/></LinearLayout>
+    <LinearLayout style="@style/GeneRow"><TextView style="@style/GeneLabel" android:text="STR"/>
+        <ProgressBar android:id="@+id/bar1" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp" android:layout_height="7dp" android:layout_weight="1" android:max="100"
+            android:progressTint="@color/str" android:progressBackgroundTint="@color/line"/>
+        <TextView android:id="@+id/val1" style="@style/GeneVal"/></LinearLayout>
+    <LinearLayout style="@style/GeneRow"><TextView style="@style/GeneLabel" android:text="MET"/>
+        <ProgressBar android:id="@+id/bar2" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp" android:layout_height="7dp" android:layout_weight="1" android:max="100"
+            android:progressTint="@color/met" android:progressBackgroundTint="@color/line"/>
+        <TextView android:id="@+id/val2" style="@style/GeneVal"/></LinearLayout>
+    <LinearLayout style="@style/GeneRow"><TextView style="@style/GeneLabel" android:text="RES"/>
+        <ProgressBar android:id="@+id/bar3" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp" android:layout_height="7dp" android:layout_weight="1" android:max="100"
+            android:progressTint="@color/res" android:progressBackgroundTint="@color/line"/>
+        <TextView android:id="@+id/val3" style="@style/GeneVal"/></LinearLayout>
+    <LinearLayout style="@style/GeneRow"><TextView style="@style/GeneLabel" android:text="LCK"/>
+        <ProgressBar android:id="@+id/bar4" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp" android:layout_height="7dp" android:layout_weight="1" android:max="100"
+            android:progressTint="@color/lck" android:progressBackgroundTint="@color/line"/>
+        <TextView android:id="@+id/val4" style="@style/GeneVal"/></LinearLayout>
+    <LinearLayout style="@style/GeneRow"><TextView style="@style/GeneLabel" android:text="RGN"/>
+        <ProgressBar android:id="@+id/bar5" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp" android:layout_height="7dp" android:layout_weight="1" android:max="100"
+            android:progressTint="@color/rgn" android:progressBackgroundTint="@color/line"/>
+        <TextView android:id="@+id/val5" style="@style/GeneVal"/></LinearLayout>
+    <LinearLayout style="@style/GeneRow"><TextView style="@style/GeneLabel" android:text="SYN"/>
+        <ProgressBar android:id="@+id/bar6" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp" android:layout_height="7dp" android:layout_weight="1" android:max="100"
+            android:progressTint="@color/syn" android:progressBackgroundTint="@color/line"/>
+        <TextView android:id="@+id/val6" style="@style/GeneVal"/></LinearLayout>
+    <LinearLayout style="@style/GeneRow"><TextView style="@style/GeneLabel" android:text="FOC"/>
+        <ProgressBar android:id="@+id/bar7" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp" android:layout_height="7dp" android:layout_weight="1" android:max="100"
+            android:progressTint="@color/foc" android:progressBackgroundTint="@color/line"/>
+        <TextView android:id="@+id/val7" style="@style/GeneVal"/></LinearLayout>
+</LinearLayout>

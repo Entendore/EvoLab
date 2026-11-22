@@ -1,0 +1,17 @@
+<resources>
+    <color name="bg">#FF070A07</color>
+    <color name="line">#FF1C2A18</color>
+    <color name="text_dim">#FF5F7A55</color>
+    <color name="text">#FFC9E8BC</color>
+    <color name="bright">#FF86FF5E</color>
+    <color name="amber">#FFFFB347</color>
+    <color name="gold">#FFFFD24A</color>
+    <color name="spd">#FF86FF5E</color>
+    <color name="str">#FFFFB347</color>
+    <color name="met">#FF5EDDFF</color>
+    <color name="res">#FFFF6B57</color>
+    <color name="lck">#FFFFD24A</color>
+    <color name="rgn">#FF5EFFB0</color>
+    <color name="syn">#FFB47CFF</color>
+    <color name="foc">#FFFF7CD1</color>
+</resources>
